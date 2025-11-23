@@ -1,0 +1,21 @@
+1. This is a review of the manuscript "Verification of constant acceleration during free fall" by Levine, Khettry, Coulanges, and Dela Rosa. The work "was intendend to verify the principle of constant accelration due to gravity during a free fall independent of mass". As such it risks confirmation bias considering a hypotheses the authors seem to "know" is right and not seriously considering alternatives. The methods and calcualtions - balls dropped from a window, time to drop and acceleration to fall 5 m, is relativly straightforward but the idea that we can simply confirm a hypothesis with one measurement is rather wacky and requires major revision.
+
+2. Introduction: No source is given for what they authors claim abotu Galileo etc. They set out to measure the acceleration of gravity g, which they claim is constant for all objects - so why do the experiment (rather circular here!). They claim the mass affects how fast an object falls (last paragraph of introduction) but in the abstract htey say the mass doesn't matter - which is it!?
+
+3. Methods and materials: give irrelevant details about drop team ground team walkie talkies etc but leaves out entirely highly important details like the camera, the scale, the frame rate, the resolution, how far filming was from, what the balls were that were dropped, how timing was accomplished, etc etc etc. This is not replicable!
+
+4. Results: Tracker online should be explained in the methods and key settings etc given. It does not belong in the results.
+
+The equation also belongs in methods. Results is just for RESULTS. It seems circular to give an equation for velocity that assumes uniform, constant acceleration and then use it to verify uniform constant acceleration! (bottom of page 2) Doing so gives an acceleration that is just a transformation of t but how valid is this really? The authors give bar graph error line indication of the error but do not give numbers $n$ nor s.d.
+
+Figures 4.1 and 4.2 give trajectories but these are not provided in a way that they can be directly compared and only include tennis ball adn cricket ball; while the bar graph includes 7 types of balls (none of which are explained in the methods)
+
+5. Discussion:
+  For some reason they lead the discussion with experimetnal error; probably better to include this after rather than lead.
+
+  "our hypothesis was correct" NO. The alternative hypotheses are wrong, adn your hypotheses is at least supported but it is by no means "proven correct" in any way. This needs to be reworked; they then weaken their explanation by saying something about magnified difference between acceleration and the weights. Mass DOES affect accceleration; the authors seem to consider a special case that they need to explain more.
+
+  "See figures 4.1 and 4.2" - not clear what they want reader to see - as the plots are not made together it is impossible to se that they are "extememely similar in their position versus time".
+
+Several properly formatted references are given but they are not cited anywhere in the text! Probably additional citations are necessary to backup what you say about Galileo.
+
