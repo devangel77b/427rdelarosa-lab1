@@ -1,0 +1,154 @@
+﻿Verification of Constant Acceleration During Free Fall
+
+
+Mason Levine, Deven Khettry, Kaitlin Coulanges, Rohan Dela Rosa
+
+
+October 24, 2025
+
+
+
+
+Abstract
+This experiment was intended to verify the principle of constant acceleration due to gravity during a free fall. Balls of various masses–including a ping pong ball, tennis ball, cricket ball, bowling ball, etc–were dropped from a fixed height, about five meters. While the balls were being dropped, a ground team used stopwatches to measure the time each ball took to hit the ground, with trials repeated for less variation of data. Acceleration was derived from a kinematic equation, a=-2h/t2. The calculated accelerations for the balls were all approximately the value of gravity, -9.8 m/s2, ranging from -9.2 m/s2 to -10.9 m/s2. Despite one outlier at -12.65 m/s2 from the baseball–presumably an error from human reaction time and environmental factors–the overall trend stays consistent, confirming that acceleration is constant due to gravity, regardless of significant differences in mass.
+
+
+	
+
+
+
+I.        INTRODUCTION
+In physics, understanding how objects move under the influence of gravity is a fundamental concept. Gravity is a universal force that acts on all objects with mass, causing them to accelerate toward the center of the Earth. One of the most well-known principles of motion is that all objects fall at the same rate regardless of their mass. Galileo first proposed this idea and later confirmed it through countless experiments. In his published work, Two New Sciences (1638), Galileo explains that when ignoring air resistance, all objects will constantly fall at a speed of 9.8 m/s² due to gravity. In this lab, we explored this principle by dropping balls of different masses from a window to observe whether their acceleration differed.
+
+Understanding gravitational acceleration is crucial for studying real-world applications of physics. Previous theoretical models consistently confirm that gravitational acceleration (g) remains constant, yet continue to serve as a simple and effective way to verify this principle.
+
+The purpose of this experiment was to verify that the acceleration due to gravity, denoted as g, is constant for all objects near Earth’s surface. By measuring and comparing each motion, we aim to confirm that the acceleration due to gravity is approximately 9.8 m/s2, and the masses of the objects shouldn’t affect that acceleration.
+
+
+
+II.        METHODS AND MATERIALS
+Free-fall experiments with a variety of balls were conducted. From the window of AP physics classroom G201, a small group of students (hereinafter referred to as the “Drop Team”) communicated with the students outside (Referred to as the “Ground Team”) to accurately record and gather data on the balls dropping. The drop team had materials to drop the following out of a window that was 5 meters high: a ping pong ball, a cricket ball, a baseball, a shot put ball, a dodgeball, a bowling ball, and a big red ball to drop. 
+
+
+The ground team had to record the data, through recording a video with their phones (with framerates of 60 frames per second) and using stopwatches to measure the time it took for the ball to drop on the ground, and start the stopwatch as the ball was released (not thrown) and stop it as soon as the ball hit the ground, recording the time it took onto a clipboard. This process was repeated 5 times for each material dropped and recorded. 3 different people were recording the times for when the ball was dropped. The data was analyzed through the app Tracker Online.
+
+
+The equation for calculating the velocity of an object is:
+
+
+V = v0+at
+
+
+Where:
+* V = final velocity
+* v0= initial velocity
+* A = acceleration
+* T = time (in seconds)
+If we are confirming that acceleration is constant despite the mass, we can manipulate the equation of vertical distance of an object during free fall to make the acceleration equal to this:
+
+
+A = -2h/t^2
+
+
+This is a much more meaningful equation for our results, rather than just saying 9.8 m/s. Since this is free-fall and we’re dropping the balls, we’ll make this negative.
+
+
+Since there were 3 different people recording time for the drops, we will take the average of the time, and then calculate the acceleration using the equation above.
+
+
+
+  
+
+Fig.1   Grounds Team’s POV of Drop Team releasing the bowling ball from the window
+	Fig.2.   Grounds Team's POV of  Drop Team releasing the big red ball from the window
+	Fig.3.  Drop Team POV of dropping the shot put out of the window
+	
+
+
+
+	
+
+	
+
+	
+
+III.        RESULTS
+The data collected was then analyzed by calculating the velocity and acceleration of the object using the time and position of the object. The specific balls we are using for comparison are the ping pong ball, tennis ball, cricket ball, and baseball.
+
+
+Ping pong ball: Average was 1.02 s, Acceleration equals -9.6 m/s2
+Tennis ball: Average was 1.03 s, Acceleration equals -9.4 m/s2
+Cricket ball: Average was 1 s, Acceleration equals -10 m/s2
+Baseball: Average was 0.89 s, Acceleration equals -12.65 m/s2
+Kickball: Average was 0.95 s, Acceleration equals -10.9 m/s2
+Big red ball: Average was 1.03 s, Acceleration equals -9.4 m/s2
+Bowling ball: Average was 1.04 s, Acceleration equals -9.2 m/s2
+
+Lastly, to visualize our data, we made a bar graph:
+
+  
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 4.  Bar Graph of Acceleration with error bars.
+	  
+  
+
+Fig 4.1. Graph of Tennis ball vs. Time                            Fig 4.2. Graph of Cricket ball vs. Time
+
+
+IV.        DISCUSSION 
+
+The overall trends observed in the experiment mostly support our hypothesis. All of the balls had accelerations that were around -9.8 m/s^2. (except baseball.) Due to those slight inconsistencies in human reaction times, it ends up with a magnified difference between those accelerations, yet most remain similar to gravity. All these balls vary in size as well, with the bowling ball being on average 10-16 pounds, and the ping pong ball being around 2.7 grams, yet these still had relatively similar accelerations, further confirming our hypothesis that mass does not affect the constant of gravity, which is acceleration in this experiment, which is a free-fall problem. 
+
+
+This is also supported for the graphs for the cricket ball and tennis ball (See figures 4.1 and 4.2), both of the curves are extremely similar in their position vs. time, and since they're baSoth the same, that means the velocities, and therefore the accelerations are similar, substantiating the claim that acceleration is constant, even when both of the balls masses are different, with the cricket ball on average weighing 134.8g, and the tennis ball on average weighing 54g.
+
+
+Several sources of human and systematic error are likely to affect the results of our experiment. Human reaction time when starting and stopping the stopwatch introduced small inaccuracies in measuring the time of fall. We attempted to combat this by taking multiple times for different members of the grounds team and finding the average of those times to use for t. Slight inconsistencies in how each ball was released could have also influenced the drop time. Variation in the outdoor conditions, such as the wind, could have also led to experimental errors.
+
+
+V.        ACKNOWLEDGMENT
+The success of this experiment relied on the collaboration between the drop team and ground team of the  Period 3 Physics C: Mechanics Class to ensure accurate data collection. Appreciation is also extended to Dr. Evangelista for providing guidance and supervision throughout the lab.
+
+VI.        REFERENCES
+Robert A Pelcovits and Joshua Farkas. Barron’s AP Physics C Premium. Kaplan North America, Fort Lauderdale, FL, 2024. ISBN 978-1-5062- 8795-9.
+
+
+Paul A Tipler and Gene Mosca. Physics for Scientists and Engineers. W H Freeman and Company, New York, 5th edition, 2004. ISBN 0-7167-8339-8.
+
+
+Christian, W., Hanson, R. M., & Brown, D. (2025). Tracker Video Analysis and Modeling Tool for Physics Education. Open Source Physics.
+
+
+
+
+
+
+
+
+
+
+
+
+0
