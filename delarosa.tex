@@ -1,0 +1,186 @@
+\documentclass[reprint,amsmath,amssymb,aps,twoside]{revtex4-2}
+
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage{siunitx}
+%\usepackage{tikz,pgfplots}
+\sisetup{separate-uncertainty=true}
+\usepackage[colorlinks,allcolors=blue]{hyperref}
+\usepackage{cleveref}
+\crefname{equation}{}{}
+\crefname{figure}{Fig.}{Figs.}
+\crefname{table}{Table}{Tables}
+\usepackage{svg}
+
+% set PDF metadata
+\hypersetup{%
+pdftitle={Acceleration is constant during free fall},
+pdfauthor={Mason Levine, Deven Khettry, Kaitlin Coulanges and Rohan Dela Rosa},
+}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE,RO]{J S\&E \textbf{2}, 39--43 (2026)}
+\fancyhead[LO]{Dela Rosa \emph{et al}}
+\fancyhead[LE]{Acceleration is constant during free fall}
+\fancyfoot[C]{\thepage}
+\fancypagestyle{mytitlepage}{
+\fancyhf{}
+\fancyhead[C]{Journal of Science \& Engineering \textbf{2}, 39--43 (2026)}
+\fancyfoot[C]{\thepage}
+}
+
+
+\begin{document}
+\setcounter{page}{35}
+
+\title{Acceleration is constant during free fall}
+\author{Mason Levine}
+\author{Deven Khettry}
+\author{Kaitlin Coulanges}
+\author{Rohan Dela Rosa}
+\email{Contact author: 427rdelarosa@frhsd.com}
+\affiliation{Science \& Engineering Magnet Program, \href{https://manalapan.frhsd.com/}{Manalapan High School}, Englishtown, NJ 07726 USA}
+\date{\today}
+
+\begin{abstract}
+This experiment was intended to verify the principle of constant acceleration due to gravity during a free fall. Balls of different masses, including a ping pong ball, tennis ball, cricket ball, and bowling ball, were dropped from a fixed height of \qty{5}{\meter}. We measured the time each ball took to hit the ground, with several replicates for each type of ball. Acceleration was computed assuming it was constant over the entire fall using $a=-\frac{2h}{t^2}$. The calculated accelerations for the balls ranged from \qtyrange{-9.2}{-10.9}{\meter\per\second\squared}, approximately equal in magnitude to $g=\qty{9.8}{\meter\per\second\squared}$. Despite one outlier at \qty{-12.65}{\meter\per\second\squared} for the baseball, presumably an error from human reaction time and environmental factors, the overall trend stays consistent, confirming that acceleration is constant due to gravity, regardless of significant differences in mass.
+\end{abstract}
+
+\keywords{keywords here}
+
+\maketitle\thispagestyle{mytitlepage}
+
+
+
+
+
+
+	
+
+
+
+\section{Introduction}
+In physics, understanding how objects move under the influence of gravity is a fundamental concept \cite{tipler}. Gravity is a universal force that acts on all objects with mass, causing them to accelerate toward the center of the Earth \cite{tipler}. One of the most well-known principles of motion is that all objects fall at the same rate regardless of their mass. Galileo first proposed this idea \cite{galilei:1638:discorsi}, contravening the prevailing Aristotelean hypothesis that heavier objects fall faster \cite{aristotle:physics}. When ignoring air resistance, falling objects will accelerate due to gravity; the acceleration of gravity near the surface of the Earth is given by $g = \qty{9.8}{\meter\per\second\squared}$. In this lab, we tested Galileo's hypothesis by dropping balls of different masses from a window to observe whether their acceleration differed, which would support Aristotle's alternative hypothesis, or whether the accelerations were the same, which would support Galileo. The drop tests also allowed us to independently estimate the gravitational acceleration $g$ near the surface of the Earth. 
+
+%Understanding gravitational acceleration is crucial for studying real-world applications of physics. Previous theoretical models consistently confirm that gravitational acceleration (g) remains constant, yet continue to serve as a simple and effective way to verify this principle.
+
+%The purpose of this experiment was to verify that the acceleration due to gravity, denoted as g, is constant for all objects near Earth’s surface. By measuring and comparing each motion, we aim to confirm that the acceleration due to gravity is approximately 9.8 m/s2, and the masses of the objects shouldn’t affect that acceleration.
+
+
+
+
+
+\section{Methods and materials}
+\subsection{Drop tests}
+As shown in \cref{fig:setup}, free-fall experiments with a variety of balls were conducted. From the window of AP physics classroom G201, a small group of students (hereinafter referred to as the ``Drop Team'') communicated with the students outside (Referred to as the ``Ground Team'') to accurately record and gather data on the balls dropping. The drop team had materials to drop the following out of a second-story classroom window ($h=\qty{5}{\meter}$): a ping pong ball, a cricket ball, a baseball, a shot put ball, a dodgeball, a bowling ball, and a big red ball to drop. \textbf{NO DATA ON BALLS GIVEN}. 
+
+The ground team had to record the data, through recording a video with their phones (with framerates of 60 frames per second) and using stopwatches to measure the time it took for the ball to drop on the ground, and start the stopwatch as the ball was released (not thrown) and stop it as soon as the ball hit the ground, recording the time it took onto a clipboard. This process was repeated five times for each material dropped and recorded. Three different people were recording the times for when the ball was dropped. The data was analyzed through the app Tracker Online \textbf{YOU WERE TOLD TO CITE TRACKER PROPERLY}.
+
+\begin{figure}
+\caption{Combine your setup figure into one single figure; 3 different figures is a waste of space. Write a proper caption here.}
+\label{fig:setup}
+\end{figure}
+
+
+\subsection{Analysis}
+\textbf{SUBSTANTIALLY REWRITTEN. YOU HAD WRONG EQUATIONS HERE.} The equation for calculating the vertical position of an object undergoing uniform acceleration is \cite{tipler}:
+\begin{equation}
+y(t) = \frac{1}{2} a t^2 + v_0 t + y_0,
+\label{eq:1}
+\end{equation}
+where $v$ is velocity, $v_0$ is the inital velocity at $t=0$, $y_0$ is the initial vertical position at $t=0$, $a$ is acceleration and $t$ is time. Assuming the initial vertical position is $y_0 = h$, we can manipulate \cref{eq:1} to solve for $a$:
+\begin{equation}
+a = -\dfrac{2h}{t^2}.
+\label{eq:2}
+\end{equation}
+By convention, the acceleration of gravity is downward and $g=\qty{9.8}{\meter\per\second\squared}$ is tabulated as positive, so we will take the negative of \cref{eq:2} when tabulating our results. To indicate experimental error, times, and the resulting accelerations, are tabulated as mean $\pm$ one standard deviation. 
+
+
+
+	
+
+
+
+	
+
+	
+
+	
+\section{Results}
+Timing data are summarized in \cref{tab:timing} and \cref{fig:timingbarchart}. The specific balls we are using for comparison are the ping pong ball, tennis ball, cricket ball, and baseball. \textbf{NEED TO EXPLAIN WHY YOU ARE TOSSING KICKBALL BIG RED BALL BOWLING BALL}.
+
+%The data collected was then analyzed by calculating the velocity and acceleration of the object using the time and position of the object. 
+
+%Ping pong ball: Average was 1.02 s, Acceleration equals -9.6 m/s2
+%Tennis ball: Average was 1.03 s, Acceleration equals -9.4 m/s2
+%Cricket ball: Average was 1 s, Acceleration equals -10 m/s2
+%Baseball: Average was 0.89 s, Acceleration equals -12.65 m/s2
+%Kickball: Average was 0.95 s, Acceleration equals -10.9 m/s2
+%Big red ball: Average was 1.03 s, Acceleration equals -9.4 m/s2
+%Bowling ball: Average was 1.04 s, Acceleration equals -9.2 m/s2
+\begin{table}
+\caption{Summary of timing data for drop tests}
+\label{tab:timing}
+\end{table}
+
+%Lastly, to visualize our data, we made a bar graph:
+\begin{figure}
+\caption{Acceleration, calculated from timing data of \cref{tab:timing} using \cref{eq:2}}
+\end{figure}
+
+Digitized trajectories for two representative tracks are given in \cref{fig:41} and \cref{fig:42}. 	
+\begin{figure}  
+\caption{Position, velocity, and acceleration versus time for a representative tennis ball}
+\label{fig:41}
+\end{figure}
+\begin{figure}  
+\caption{Position, velocity, and acceleration versus time for a representative cricket ball}
+\label{fig:42}
+\end{figure}
+
+
+
+
+
+
+\section{Discussion}
+\textbf{You were told to use subsections here}
+
+\subsection{Data support constant acceleration during freefall}
+The overall trends observed in the experiment mostly support our hypothesis. All of the balls had accelerations that were around \qty{-9.8}{\meter\per\second\squared}. (except baseball.) Due to those slight inconsistencies in human reaction times, it ends up with a magnified difference between those accelerations, yet most remain similar to gravity. All these balls vary in size as well, with the bowling ball being on average 10-16 pounds (\textbf{METRIC}), and the ping pong ball being around \qty{2.7}{\gram}, yet these still had relatively similar accelerations, further confirming our hypothesis that mass does not affect the constant of gravity, which is acceleration in this experiment, which is a free-fall problem. 
+
+This is also supported for the graphs for the cricket ball and tennis ball (\cref{fig:41} and \cref{fig:42}), both of the curves are extremely similar in their position vs. time, and since they're both the same, that means the velocities, and therefore the accelerations are similar, substantiating the claim that acceleration is constant, even when both of the balls masses are different, with the cricket ball on average weighing \qty{134.8}{\gram}, and the tennis ball on average weighing \qty{54}{\gram}.
+
+\subsection{Sources of experimental error}
+Several sources of error may affect the results of our experiment. Human reaction time when starting and stopping the stopwatch introduced small inaccuracies in measuring the time of fall. We attempted to combat this by taking multiple times for different members of the grounds team. Slight inconsistencies in how each ball was released could have also influenced the drop time, hence we conducted at least five replicate drops for each ball. Variation in the outdoor conditions, such as the wind, could have also led to experimental errors. We conducted drops only when gusts were not felt. 
+
+
+
+
+
+\section{Acknowledgements} 
+We thank the Period 3 AP Physics C Mechanics class for assistance in data collection, and several anonymous reviewers for providing helpful comments. ML did (what?). DK did (what?). KC did (stuff). RD did (fill in). 
+
+
+
+
+
+
+
+
+
+
+\bibliography{lab.bib}
+%References 
+
+%Galilei, Galileo. Two New Sciences. Translated by Stillman Drake, University of Wisconsin Press, 1974.
+
+%Tipler, Paul A., and Gene Mosca. Physics for Scientists and Engineers. 5th ed., W. H. Freeman, 2003.
+
+%Brown, Douglas, Robert M. Hanson, and Wolfgang Christian. "Tracker Online." Open Source Physics, AAPT, https://opensourcephysics.github.io/tracker-online/
+
+
+\end{document}
