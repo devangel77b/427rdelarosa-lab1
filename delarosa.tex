@@ -13,6 +13,7 @@
 \crefname{figure}{Fig.}{Figs.}
 \crefname{table}{Table}{Tables}
 \usepackage{svg}
+\svgpath{{./figures}}
 
 % set PDF metadata
 \hypersetup{%
@@ -80,6 +81,9 @@ As shown in \cref{fig:setup}, free-fall experiments with a variety of balls were
 The ground team had to record the data, through recording a video with their phones (with framerates of 60 frames per second) and using stopwatches to measure the time it took for the ball to drop on the ground, and start the stopwatch as the ball was released (not thrown) and stop it as soon as the ball hit the ground, recording the time it took onto a clipboard. This process was repeated five times for each material dropped and recorded. Three different people were recording the times for when the ball was dropped. The data was analyzed through the app Tracker Online \textbf{YOU WERE TOLD TO CITE TRACKER PROPERLY}.
 
 \begin{figure}
+\begin{center}
+\includegraphics{figures/fig1.pdf}
+\end{center}
 \caption{Combine your setup figure into one single figure; 3 different figures is a waste of space. Write a proper caption here.}
 \label{fig:setup}
 \end{figure}
@@ -133,13 +137,16 @@ Timing data are summarized in \cref{tab:timing} and \cref{fig:timingbarchart}. T
 
 Digitized trajectories for two representative tracks are given in \cref{fig:41} and \cref{fig:42}. 	
 \begin{figure}  
-\caption{Position, velocity, and acceleration versus time for a representative tennis ball}
+\begin{center}
+\includesvg{fig41.svg}
+\end{center}
+\caption{Position, velocity, and acceleration versus time for a representative tennis ball and a representative cricket ball}
 \label{fig:41}
 \end{figure}
-\begin{figure}  
-\caption{Position, velocity, and acceleration versus time for a representative cricket ball}
-\label{fig:42}
-\end{figure}
+%\begin{figure}  
+%\caption{Position, velocity, and acceleration versus time for a representative cricket ball}
+%\label{fig:42}
+%\end{figure}
 
 
 
