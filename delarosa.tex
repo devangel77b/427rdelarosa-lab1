@@ -64,7 +64,7 @@ This experiment was intended to verify the principle of constant acceleration du
 
 
 \section{Introduction}
-In physics, understanding how objects move under the influence of gravity is a fundamental concept \cite{tipler}. Gravity is a universal force that acts on all objects with mass, causing them to accelerate toward the center of the Earth \cite{tipler}. One of the most well-known principles of motion is that all objects fall at the same rate regardless of their mass. Galileo first proposed this idea \cite{galilei:1638:discorsi}, contravening the prevailing Aristotelean hypothesis that heavier objects fall faster \cite{aristotle:physics}. When ignoring air resistance, falling objects will accelerate due to gravity; the acceleration of gravity near the surface of the Earth is given by $g = \qty{9.8}{\meter\per\second\squared}$. In this lab, we tested Galileo's hypothesis by dropping balls of different masses from a window to observe whether their acceleration differed, which would support Aristotle's alternative hypothesis, or whether the accelerations were the same, which would support Galileo. The drop tests also allowed us to independently estimate the gravitational acceleration $g$ near the surface of the Earth. 
+In physics, understanding how objects move under the influence of gravity is a fundamental concept \cite{tipler}. Gravity is a universal force that acts on all objects with mass, causing them to accelerate toward the center of the Earth \cite{tipler, openstax, barrons}. One of the most well-known principles of motion is that all objects fall at the same rate regardless of their mass. Galileo first proposed this idea \cite{galilei:1638:discorsi, machamer:2021:galileo}, contravening the prevailing Aristotelean hypothesis that heavier objects fall faster \cite{aristotle:physics}. When ignoring air resistance, falling objects will accelerate due to gravity; the acceleration of gravity near the surface of the Earth is given by $g = \qty{9.8}{\meter\per\second\squared}$. We tested Galileo's hypothesis by dropping balls of different masses from a window to observe whether their acceleration differed, which would support Aristotle's alternative hypothesis, or whether the accelerations were the same, which would support Galileo. The drop tests also allowed us to independently estimate the gravitational acceleration $g$ near the surface of the Earth. 
 
 %Understanding gravitational acceleration is crucial for studying real-world applications of physics. Previous theoretical models consistently confirm that gravitational acceleration (g) remains constant, yet continue to serve as a simple and effective way to verify this principle.
 
@@ -78,7 +78,7 @@ In physics, understanding how objects move under the influence of gravity is a f
 \subsection{Drop tests}
 As shown in \cref{fig:setup}, free-fall experiments with a variety of balls were conducted. From the window of AP physics classroom G201, a small group of students (hereinafter referred to as the ``Drop Team'') communicated with the students outside (Referred to as the ``Ground Team'') to accurately record and gather data on the balls dropping. The drop team had materials to drop the following out of a second-story classroom window ($h=\qty{5}{\meter}$): a ping pong ball, a cricket ball, a baseball, a shot put ball, a dodgeball, a bowling ball, and a big red ball to drop. \textbf{NO DATA ON BALLS GIVEN}. 
 
-The ground team had to record the data, through recording a video with their phones (with framerates of 60 frames per second) and using stopwatches to measure the time it took for the ball to drop on the ground, and start the stopwatch as the ball was released (not thrown) and stop it as soon as the ball hit the ground, recording the time it took onto a clipboard. This process was repeated five times for each material dropped and recorded. Three different people were recording the times for when the ball was dropped. The data was analyzed through the app Tracker Online \textbf{YOU WERE TOLD TO CITE TRACKER PROPERLY}.
+The ground team had to record the data, through recording a video with their phones (with framerates of 60 frames per second) and using stopwatches to measure the time it took for the ball to drop on the ground, and start the stopwatch as the ball was released (not thrown) and stop it as soon as the ball hit the ground, recording the time it took onto a clipboard. This process was repeated five times for each material dropped and recorded. Three different people were recording the times for when the ball was dropped. The data was analyzed through the app Tracker \cite{tracker, renika:2024:kinematics}.
 
 \begin{figure}
 \begin{center}
@@ -100,9 +100,9 @@ where $v$ is velocity, $v_0$ is the inital velocity at $t=0$, $y_0$ is the initi
 a = -\dfrac{2h}{t^2}.
 \label{eq:2}
 \end{equation}
-By convention, the acceleration of gravity is downward and $g=\qty{9.8}{\meter\per\second\squared}$ is tabulated as positive, so we will take the negative of \cref{eq:2} when tabulating our results. To indicate experimental error, times, and the resulting accelerations, are tabulated as mean $\pm$ one standard deviation. 
+By convention, the acceleration of gravity is downward and $g=\qty{9.8}{\meter\per\second\squared}$ is tabulated as positive \cite{tipler, openstax, barrons}, so we will take the negative of \cref{eq:2} when tabulating our results. To indicate experimental error, times, and the resulting accelerations, are tabulated as mean $\pm$ one standard deviation. 
 
-
+Statistical analyses \cite{starnes:2015:practice} were performed in R \cite{R} using the \texttt{ggplot2} and \texttt{dplyr} libraries \cite{ggplot2, dplyr}
 
 	
 
