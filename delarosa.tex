@@ -23,19 +23,19 @@ pdfauthor={Mason Levine, Deven Khettry, Kaitlin Coulanges and Rohan Dela Rosa},
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[RE,RO]{J S\&E \textbf{2}, 39--40 (2026)}
+\fancyhead[RE,RO]{J S\&E \textbf{2}, 41--43 (2026)}
 \fancyhead[LO]{Dela Rosa \emph{et al}}
 \fancyhead[LE]{Acceleration is constant during free fall}
 \fancyfoot[C]{\thepage}
 \fancypagestyle{mytitlepage}{
 \fancyhf{}
-\fancyhead[C]{Journal of Science \& Engineering \textbf{2}, 39--40 (2026)}
+\fancyhead[C]{Journal of Science \& Engineering \textbf{2}, 41--43 (2026)}
 \fancyfoot[C]{\thepage}
 }
 
 
 \begin{document}
-\setcounter{page}{39}
+\setcounter{page}{41}
 
 \title{Acceleration is constant during free fall}
 \author{Mason Levine}
@@ -47,7 +47,8 @@ pdfauthor={Mason Levine, Deven Khettry, Kaitlin Coulanges and Rohan Dela Rosa},
 \date{\today}
 
 \begin{abstract}
-This experiment was intended to verify the principle of constant acceleration due to gravity during a free fall. Balls of different masses, including a ping pong ball, tennis ball, cricket ball, and bowling ball, were dropped from a fixed height of \qty{5}{\meter}. We measured the time each ball took to hit the ground, with several replicates for each type of ball. Acceleration was computed assuming it was constant over the entire fall using $a=-\frac{2h}{t^2}$. The calculated accelerations for the balls ranged from \qtyrange{-9.2}{-10.9}{\meter\per\second\squared}, approximately equal in magnitude to $g=\qty{9.8}{\meter\per\second\squared}$. Despite one outlier at \qty{-12.65}{\meter\per\second\squared} for the baseball, presumably an error from human reaction time and environmental factors, the overall trend stays consistent, confirming that acceleration is constant due to gravity, regardless of significant differences in mass.
+This experiment was intended to verify the principle of constant acceleration due to gravity during a free fall. Balls of different masses, including a ping pong ball, tennis ball, cricket ball, and bowling ball, were dropped from a fixed height of \qty{5}{\meter}. We measured the time each ball took to hit the ground, with several replicates for each type of ball. Acceleration was computed assuming it was constant over the entire fall using $a=-\frac{2h}{t^2}$. The calculated accelerations for the balls ranged from \qtyrange{-9.2}{-10}{\meter\per\second\squared}, approximately equal in magnitude to $g=\qty{9.8}{\meter\per\second\squared}$. Our findings support Galileo's assertion that acceleration due to gravity near the Earth's surface is constant, regardless of significant differences in mass.
+%This experiment was intended to verify the principle of constant acceleration due to​ ​gravity during a free fall, independent of mass. Balls of various masses–including a ping​ ​pong ball, tennis ball, cricket ball, bowling ball, etc–were dropped from a fixed height of \qty{5}{\meter}. While the balls were being dropped, a ground team used stopwatches to​ ​measure the time each ball took to hit the ground, with trials repeated for less variation of​ ​data. Acceleration was derived from a kinematic equation, a=-2h/t​​2​.​ The calculated​ ​accelerations for the balls were all approximately the value of gravity, -9.8 m/s​​2​,​ ranging​ ​from -9.2 m/s​​2​ ​to -10.9 m/s​​2​​. Despite one outlier​​at -12.65 m/s​​2​ ​from the​ ​baseball–presumably an error from human reaction time and environmental factors–the​ ​overall trend stays consistent, confirming that acceleration is constant due to gravity,​ ​regardless of significant differences in mass.​
 \end{abstract}
 
 \keywords{keywords here}
@@ -64,7 +65,9 @@ This experiment was intended to verify the principle of constant acceleration du
 
 
 \section{Introduction}
-In physics, understanding how objects move under the influence of gravity is a fundamental concept \cite{tipler}. Gravity is a universal force that acts on all objects with mass, causing them to accelerate toward the center of the Earth \cite{tipler, openstax, barrons}. One of the most well-known principles of motion is that all objects fall at the same rate regardless of their mass. Galileo first proposed this idea \cite{galilei:1638:discorsi, machamer:2021:galileo}, contravening the prevailing Aristotelean hypothesis that heavier objects fall faster \cite{aristotle:physics}. When ignoring air resistance, falling objects will accelerate due to gravity; the acceleration of gravity near the surface of the Earth is given by $g = \qty{9.8}{\meter\per\second\squared}$. We tested Galileo's hypothesis by dropping balls of different masses from a window to observe whether their acceleration differed, which would support Aristotle's alternative hypothesis, or whether the accelerations were the same, which would support Galileo. The drop tests also allowed us to independently estimate the gravitational acceleration $g$ near the surface of the Earth. 
+In physics, understanding how objects move under the influence of gravity is a fundamental concept \cite{tipler,openstax,barrons}. Gravity is a universal force that acts on all objects with mass, causing them to accelerate toward the center of the Earth \cite{tipler, openstax, barrons}. One of the most well-known principles of motion is that all objects fall at the same rate regardless of their mass. Galileo first proposed this idea \cite{galilei:1638:discorsi, machamer:2021:galileo}, contravening the prevailing Aristotelean hypothesis that heavier objects fall faster \cite{aristotle:physics}. When ignoring air resistance, falling objects will accelerate due to gravity; the acceleration of gravity near the surface of the Earth is given by $g = \qty{9.8}{\meter\per\second\squared}$ \cite{tipler,openstax,barrons}. 
+
+We tested Galileo's hypothesis by dropping balls of different masses from a window to observe whether their acceleration differed, which would support Aristotle's alternative hypothesis, or whether the accelerations were the same, which would support Galileo. The drop tests also allowed us to independently estimate the gravitational acceleration $g$ near the surface of the Earth. To test among the two hypotheses, we selected balls of similar size and shape, and thus similar drag, but with different masses. This allows us to examine the effect of mass without other confounding factors. 
 
 %Understanding gravitational acceleration is crucial for studying real-world applications of physics. Previous theoretical models consistently confirm that gravitational acceleration (g) remains constant, yet continue to serve as a simple and effective way to verify this principle.
 
@@ -76,21 +79,21 @@ In physics, understanding how objects move under the influence of gravity is a f
 
 \section{Methods and materials}
 \subsection{Drop tests}
-As shown in \cref{fig:setup}, free-fall experiments with a variety of balls were conducted. From the window of AP physics classroom G201, a small group of students (hereinafter referred to as the ``Drop Team'') communicated with the students outside (Referred to as the ``Ground Team'') to accurately record and gather data on the balls dropping. The drop team had materials to drop the following out of a second-story classroom window ($h=\qty{5}{\meter}$): a ping pong ball, a cricket ball, a baseball, a shot put ball, a dodgeball, a bowling ball, and a big red ball to drop. \textbf{NO DATA ON BALLS GIVEN}. 
-
-The ground team had to record the data, through recording a video with their phones (with framerates of 60 frames per second) and using stopwatches to measure the time it took for the ball to drop on the ground, and start the stopwatch as the ball was released (not thrown) and stop it as soon as the ball hit the ground, recording the time it took onto a clipboard. This process was repeated five times for each material dropped and recorded. Three different people were recording the times for when the ball was dropped. The data was analyzed through the app Tracker \cite{tracker, renika:2024:kinematics}.
-
 \begin{figure}
 \begin{center}
 \includegraphics{figures/fig1.pdf}
 \end{center}
-\caption{Combine your setup figure into one single figure; 3 different figures is a waste of space. Write a proper caption here.}
+\caption{Setup for drop tests. Objects were dropped from a second floor classroom window ($h=\qty{5}{\meter}$). A. Example drop of a bowling ball. B. Example drop of a big red ball. C. View from window showing sideways grip for clean release of balls.}
 \label{fig:setup}
 \end{figure}
 
+As shown in \cref{fig:setup}, free-fall experiments with a variety of balls were conducted. Balls were dropped from a second floor classroom window ($h=\qty{5}{\meter}$), with observers outside on the ground to measure the time to fall and film the resulting kinematics. Objects dropped included ping pong ball (\qty{0.0027}{\kilo\gram}), tennis ball (\qty{0.056}{\kilo\gram}), baseball (\qty{0.143}{\kilo\gram}), cricket ball (\qty{0.156}{\kilo\gram}), shotput (\qty{5.45}{\kilo\gram}), kickball (\qty{0.210}{\kilo\gram}), bowling ball (\qty{2.9}{\kilo\gram}), and a big red ball (\qty{0.208}{\kilo\gram}) to drop. For this paper, we focus on the tennis ball and cricket ball, two balls of similar size and shape, and thus similar drag, but with mass differing by a factor of three. This contrast allows testing of Galileo's versus Aristotle's hypotheses with minimal confounding effects.  
+
+We recorded v from the ground using smartphones (iPhone 13; Apple, Inc; Cupertino, CA) mounted on tripods and operated at \qty{60}{frame\per\second}. A measuring tape hung out the window and a meter stick placed at ground level provided scale references in the scene. We also measured the time it took for the ball to drop to the ground using stopwatches (Pulivia YS-802; Shenzhen, China). For each drop, balls were held out of the window for a short countdown, then cleanly released from a sideways grip, with care not to throw the ball with upward or downward velocity. The countdown also signaled observers to start the cameras and begin timing. This process was repeated five times for each object dropped and recorded. Three different people were recording the times for when the ball was dropped. 
+
 
 \subsection{Analysis}
-\textbf{SUBSTANTIALLY REWRITTEN. YOU HAD WRONG EQUATIONS HERE.} The equation for calculating the vertical position of an object undergoing uniform acceleration is \cite{tipler}:
+Measured time data from stopwatches was used to compute acceleration, assuming the acceleration was constant and uniform. The equation for calculating the vertical position of an object undergoing uniform acceleration is \cite{tipler,openstax,barrons}:
 \begin{equation}
 y(t) = \frac{1}{2} a t^2 + v_0 t + y_0,
 \label{eq:1}
@@ -100,11 +103,11 @@ where $v$ is velocity, $v_0$ is the inital velocity at $t=0$, $y_0$ is the initi
 a = -\dfrac{2h}{t^2}.
 \label{eq:2}
 \end{equation}
-By convention, the acceleration of gravity is downward and $g=\qty{9.8}{\meter\per\second\squared}$ is tabulated as positive \cite{tipler, openstax, barrons}, so we will take the negative of \cref{eq:2} when tabulating our results. To indicate experimental error, times, and the resulting accelerations, are tabulated as mean $\pm$ one standard deviation. 
+By convention, the acceleration of gravity is downward and $g=\qty{9.8}{\meter\per\second\squared}$ is tabulated as positive \cite{tipler, openstax, barrons}, so we will take the negative of \cref{eq:2} when tabulating our results. To indicate experimental error, times, and the resulting accelerations, are tabulated as mean $\pm$ one standard deviation. For each measured time, acceleration was calculated using \cref{eq:2} and $h=\qty{5.0}{\meter}$. A two-sample $t$-test was then used to check for differences between cricket and tennis balls \cite{starnes:2015:practice, R}. 
 
-Statistical analyses \cite{starnes:2015:practice} were performed in R \cite{R} using the \texttt{ggplot2} and \texttt{dplyr} libraries \cite{ggplot2, dplyr}
+For kinematic data, videos were manually digitized using Tracker \cite{tracker, renika:2024:kinematics} to obtain vertical position. . Statistical analyses \cite{starnes:2015:practice} were performed in R \cite{R} using the \texttt{ggplot2} and \texttt{dplyr} libraries \cite{ggplot2, dplyr} to obtain an additional estimate of acceleration via second-order fit of \cref{eq:1} to the measured position data. 
 
-	
+All data and code are available at \url{https://github.com/devangel77b/427rdelarosa-lab1}. 	
 
 
 
@@ -114,7 +117,7 @@ Statistical analyses \cite{starnes:2015:practice} were performed in R \cite{R} u
 
 	
 \section{Results}
-Timing data are summarized in \cref{tab:timing} and \cref{fig:timingbarchart}. The specific balls we are using for comparison are the ping pong ball, tennis ball, cricket ball, and baseball. \textbf{NEED TO EXPLAIN WHY YOU ARE TOSSING KICKBALL BIG RED BALL BOWLING BALL}.
+Timing data are summarized in \cref{tab:1} and \cref{fig:5}. For timing data and corresponding accelerations, differences between cricket and tennis balls are not significant ($t$-test, $t=0.529$, $df=5.0214$, $p=0.6196$ for times; $t=-0.33$, $df=5.3724$, $p=0.75$ for acceleration).
 
 %The data collected was then analyzed by calculating the velocity and acceleration of the object using the time and position of the object. 
 
@@ -131,25 +134,6 @@ Timing data are summarized in \cref{tab:timing} and \cref{fig:timingbarchart}. T
 %\end{table}
 \input{tables/table1.tex}
 
-%Lastly, to visualize our data, we made a bar graph:
-\begin{figure}
-\caption{Acceleration, calculated from timing data of \cref{tab:timing} using \cref{eq:2}}
-\end{figure}
-
-Digitized trajectories for two representative tracks are given in \cref{fig:41} and \cref{fig:42}. 	
-\begin{figure}  
-\begin{center}
-\includesvg{fig41.svg}
-\end{center}
-\caption{Position, velocity, and acceleration versus time for a representative tennis ball and a representative cricket ball}
-\label{fig:41}
-\end{figure}
-%\begin{figure}  
-%\caption{Position, velocity, and acceleration versus time for a representative cricket ball}
-%\label{fig:42}
-%\end{figure}
-
-What is this bar graph? 
 \begin{figure}
 \begin{center}
 \includesvg{fig5.svg}
@@ -158,27 +142,48 @@ What is this bar graph?
 \label{fig:5}
 \end{figure}
 
+%Lastly, to visualize our data, we made a bar graph:
+%\begin{figure}
+%\caption{Acceleration, calculated from timing data of \cref{tab:timing} using \cref{eq:2}}
+%\end{figure}
+
+Digitized trajectories for both cricket and tennis balls ($n=5$ each) are given in \cref{fig:41}. Fitting with a model of the form $y=-\frac{1}{2}g t^2+h$ resulted in $g=\qty{9.2\pm0.2}{\meter\per\second\squared}$ for cricket and $g=\qty{10.0\pm0.2}{\meter\per\second\squared}$ for tennis (linear regression, $p<\num{2e-16}$). Differences between the two balls were significant (nested ANOVA, $p=0.00177$). 
+\begin{figure}  
+\begin{center}
+\includesvg{fig41.svg}
+\end{center}
+\caption{Position versus time for cricket and tennis balls ($n=5$) each. Data from manually digitized kinematics using Tracker \cite{tracker}. Fitting with a model of the form $y=-\frac{1}{2}g t^2+h$ resulted in $g=\qty{9.2\pm0.2}{\meter\per\second\squared}$ for cricket and $g=\qty{10.0\pm0.2}{\meter\per\second\squared}$ for tennis (linear regression, $p<\num{2e-16}$). Differences between the two balls were significant (nested ANOVA, $p=0.00177$).}
+\label{fig:41}
+\end{figure}
+%\begin{figure}  
+%\caption{Position, velocity, and acceleration versus time for a representative cricket ball}
+%\label{fig:42}
+%\end{figure}
+
+
+
 
 
 
 
 \section{Discussion}
-\textbf{You were told to use subsections here}
 
-\subsection{Data support constant acceleration during freefall}
-The overall trends observed in the experiment mostly support our hypothesis. All of the balls had accelerations that were around \qty{-9.8}{\meter\per\second\squared}. (except baseball.) Due to those slight inconsistencies in human reaction times, it ends up with a magnified difference between those accelerations, yet most remain similar to gravity. All these balls vary in size as well, with the bowling ball being on average 10-16 pounds (\textbf{METRIC}), and the ping pong ball being around \qty{2.7}{\gram}, yet these still had relatively similar accelerations, further confirming our hypothesis that mass does not affect the constant of gravity, which is acceleration in this experiment, which is a free-fall problem. 
+\subsection{Data support constant acceleration during free fall}
+The overall trends observed in the experiment support our hypothesis (and Galileo's) that near Earth's surface, objects fall at constant acceleration, regardless of their mass. As shown in \cref{tab:1,fig:5,fig:41}, measured accelerations were close to values commonly accepted for $g=\qty{9.8}{\meter\per\second\squared}$ \cite{tipler,openstax,barrons}. The good fit of a model of the form $y=-\frac{1}{2}gt^2+h$ to the data in \cref{fig:41} shows the acceleration is constant during free fall. Differences between balls with a factor of three difference in mass were not significant in \cref{tab:1,fig:5}, supporting Galileo's hypothesis and refuting Aristotle's. 
 
-This is also supported for the graphs for the cricket ball and tennis ball (\cref{fig:41} and \cref{fig:42}), both of the curves are extremely similar in their position vs. time, and since they're both the same, that means the velocities, and therefore the accelerations are similar, substantiating the claim that acceleration is constant, even when both of the balls masses are different, with the cricket ball on average weighing \qty{134.8}{\gram}, and the tennis ball on average weighing \qty{54}{\gram}.
+%Due to those slight inconsistencies in human reaction times, it ends up with a magnified difference between those accelerations, yet most remain similar to gravity. All these balls vary in size as well, with the bowling ball being on average 10-16 pounds (\textbf{METRIC}), and the ping pong ball being around \qty{2.7}{\gram}, yet these still had relatively similar accelerations, further confirming our hypothesis that mass does not affect the constant of gravity, which is acceleration in this experiment, which is a free-fall problem. 
+
+%This is also supported for the graphs for the cricket ball and tennis ball (\cref{fig:41} and \cref{fig:42}), both of the curves are extremely similar in their position vs. time, and since they're both the same, that means the velocities, and therefore the accelerations are similar, substantiating the claim that acceleration is constant, even when both of the balls masses are different, with the cricket ball on average weighing \qty{134.8}{\gram}, and the tennis ball on average weighing \qty{54}{\gram}.
 
 \subsection{Sources of experimental error}
-Several sources of error may affect the results of our experiment. Human reaction time when starting and stopping the stopwatch introduced small inaccuracies in measuring the time of fall. We attempted to combat this by taking multiple times for different members of the grounds team. Slight inconsistencies in how each ball was released could have also influenced the drop time, hence we conducted at least five replicate drops for each ball. Variation in the outdoor conditions, such as the wind, could have also led to experimental errors. We conducted drops only when gusts were not felt. 
+Several sources of error may affect the results of our experiment. Human reaction time when starting and stopping the stopwatch introduced small inaccuracies in measuring the time of fall \cite{hetzler:2008:reliability,faux:2019:manual}. We attempted to combat this by taking multiple times for different members of the grounds team. Slight inconsistencies in how each ball was released could have also influenced the drop time, hence we conducted at least five replicate drops for each ball. Variation in the outdoor conditions, such as the wind, could have also led to experimental errors. We conducted drops only when gusts were not felt. 
 
 
 
 
 
 \section{Acknowledgements} 
-We thank the Period 3 AP Physics C Mechanics class for assistance in data collection, and several anonymous reviewers for providing helpful comments. ML did (what?). DK did (what?). KC did (stuff). RD did (fill in). 
+We thank the Period 3 AP Physics C Mechanics class for assistance in data collection, and several anonymous reviewers for providing helpful comments. ML, DK, KC, and RD shared the work equally and declined to list individual contributions. 
 
 
 
